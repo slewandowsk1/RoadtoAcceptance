@@ -7,8 +7,9 @@ using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
-
-    public float speed;
+    [SerializeField] private float _walkSpeed, _runSpeed;
+    private float _currentSpeed;
+    public float sprintMultiplier;
     public float jumpForce;
     //public bool canMove;
 
@@ -39,7 +40,18 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         var h = Input.GetAxis("Horizontal");
-        _rb.velocity = new Vector2(h * speed, _rb.velocity.y);
+
+        if (Input.GetKey(KeyCode.LeftShift) && Mathf.Abs(_rb.velocity.x) > 0)
+        {
+            _currentSpeed = _runSpeed;
+        }
+        else
+        {
+            _currentSpeed = _walkSpeed;
+        }
+
+
+        _rb.velocity = new Vector2(h * _currentSpeed, _rb.velocity.y);
 
         if (_rb.velocity.y < fallThreshold)
         {
@@ -58,7 +70,14 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                animator.SetTrigger("Walk");
+                if (_currentSpeed == _runSpeed)
+                {
+                    animator.SetTrigger("Run");
+                }
+                else
+                {
+                    animator.SetTrigger("Walk");
+                }
             }
         }
 
@@ -72,7 +91,7 @@ public class PlayerController : MonoBehaviour
         {
             _rb.velocity = Vector2.up * jumpForce;
             _jumpCount++;
-            print("jump");
+            //print("jump");
             animator.SetTrigger("Jump");
         }
     }
