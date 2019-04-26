@@ -1,7 +1,18 @@
 fileFormatVersion: 2
 guid: dcb6de659d319654d8896c41c8cb289b
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: attack 1 phase 3_0
+    21300002: attack 1 phase 3_1
+    21300004: attack 1 phase 3_2
+    21300006: attack 1 phase 3_3
+    21300008: attack 1 phase 3_4
+    21300010: attack 1 phase 3_5
+    21300012: attack 1 phase 3_6
+    21300014: attack 1 phase 3_7
+    21300016: attack 1 phase 3_8
+    21300018: attack 1 phase 3_9
+    21300020: attack 1 phase 3_10
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +51,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +80,251 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: attack 1 phase 3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 167
+        height: 252
+      alignment: 9
+      pivot: {x: 0.38145155, y: 0.019387139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5e425f45e2b048a3a43ce824ff93f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 748
+        width: 186
+        height: 276
+      alignment: 9
+      pivot: {x: 0.4440626, y: 0.010948513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe5ce6fb11552d4897464bfbc9b6902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 728
+        width: 205
+        height: 296
+      alignment: 9
+      pivot: {x: 0.4440626, y: 0.010948513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4291ec23f371249bd1155e165ada9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 725
+        width: 214
+        height: 299
+      alignment: 9
+      pivot: {x: 0.4440626, y: 0.010948513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae872eda32e17c4d87747d94e417931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_4
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 783
+        width: 203
+        height: 241
+      alignment: 9
+      pivot: {x: 0.4440626, y: 0.010948513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d3f73477340d0489450c1f4d57155d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 300
+        height: 275
+      alignment: 9
+      pivot: {x: 0.6886208, y: 0.02365312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1cd8fe25f9a0a4783230990ff1d78e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 409
+        width: 300
+        height: 275
+      alignment: 9
+      pivot: {x: 0.6886208, y: 0.02365312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636043b09ad8fb546b20b0824aae3bfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_7
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 411
+        width: 300
+        height: 275
+      alignment: 9
+      pivot: {x: 0.5605192, y: 0.006714311}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1295485b69069459c2acc0d4ff0ad8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 167
+        height: 252
+      alignment: 9
+      pivot: {x: 0.43723896, y: 0.024008615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3284acc7492b53c4d8fa6e4dd08ea774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_9
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 136
+        width: 167
+        height: 252
+      alignment: 9
+      pivot: {x: 0.43723896, y: 0.024008615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98c1822ea33634489d38e95f09a84f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 3_10
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 134
+        width: 167
+        height: 252
+      alignment: 9
+      pivot: {x: 0.43723896, y: 0.024008615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77520bd91271ab4c9d023572d69acef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,14 @@
 fileFormatVersion: 2
 guid: ea844682b73474143ae2a565db1998d1
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: idle phase 2_0
+    21300002: idle phase 2_1
+    21300004: idle phase 2_2
+    21300006: idle phase 2_3
+    21300008: idle phase 2_4
+    21300010: idle phase 2_5
+    21300012: idle phase 2_6
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +47,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +76,171 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: idle phase 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 735
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.51354635, y: 0.0012929316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4d224a18347e84cbeb394dd61480f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle phase 2_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 735
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.62869036, y: 0.00534744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef4430b7c1a11b479c74722dc603127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle phase 2_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 735
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.62869036, y: 0.00534744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfda6a8beddecbd46aa16c36b38daa34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle phase 2_3
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 735
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.62869036, y: 0.00534744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d9bbee0f2039c4dac30b8928bddee9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle phase 2_4
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 735
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.62869036, y: 0.00534744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b020484894ebe41a264ba3d973ff39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle phase 2_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 413
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.62869036, y: 0.00534744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc6e33deb7bdd942a9f9f0727da144a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle phase 2_6
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 412
+        width: 173
+        height: 289
+      alignment: 9
+      pivot: {x: 0.62869036, y: 0.00534744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9adca5c8288deb49a89cbd732bcb1cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
