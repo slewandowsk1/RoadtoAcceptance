@@ -1,0 +1,446 @@
+fileFormatVersion: 2
+guid: fd4c985fc92dc4349b1d27808dee7710
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anger death_0
+    21300002: anger death_1
+    21300004: anger death_2
+    21300006: anger death_3
+    21300008: anger death_4
+    21300010: anger death_5
+    21300012: anger death_6
+    21300014: anger death_7
+    21300016: anger death_8
+    21300018: anger death_9
+    21300020: anger death_10
+    21300022: anger death_11
+    21300024: anger death_12
+    21300026: anger death_13
+    21300028: anger death_14
+    21300030: anger death_15
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anger death_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1722
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.29465497, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd10b9b7cb84da745ba4daf8f7b68087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_1
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1722
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc06c67685f7b4e4ab7889332189447c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_2
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1722
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ae7ad53674f46458e5d8942a7f2166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_3
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 1722
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088014e572974c44f891e6e87db715b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1298
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a3dfc0fb1f7604086155d82e122205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1297
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c594ee481a0b54599a45cd7369513d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_6
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1297
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ca339565aed004b875ded4e3555fcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_7
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1299
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6400a358e2fa10e4db0cba2689ffab13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_8
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 872
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807363ec0caa30f4f892224f2549e3ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_9
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 872
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c77445278e6d3469349fac457f5c0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_10
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 874
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6879e132c728e424f846a0fbd1fa5373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 872
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd6e5ff9ba4de3408e317cb5f62defd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad89de0bf8706884398f7d57793b6b0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_13
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 449
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5823c34e71321db44888c8ac01b3b9b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_14
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 445
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddec0b4ee3fd9f0468dd809cc3e02655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger death_15
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 447
+        width: 414
+        height: 326
+      alignment: 9
+      pivot: {x: 0.2988741, y: 0.035605215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365676cea5615d8429235bd65ed5e22e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 30361b95ffaa9ee4b91b5057edd75f3f
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
