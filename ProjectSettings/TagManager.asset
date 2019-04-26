@@ -9,6 +9,7 @@ TagManager:
   - JumpPad
   - enemy
   - Object
+  - HouseDoor
   layers:
   - Default
   - TransparentFX

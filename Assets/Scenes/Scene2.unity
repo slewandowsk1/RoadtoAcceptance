@@ -2458,8 +2458,8 @@ GameObject:
   - component: {fileID: 1205459368}
   - component: {fileID: 1205459367}
   m_Layer: 0
-  m_Name: Therapist's Door
-  m_TagString: Finish
+  m_Name: exit
+  m_TagString: HouseDoor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
