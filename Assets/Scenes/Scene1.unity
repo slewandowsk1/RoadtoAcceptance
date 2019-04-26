@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded362e3204052a4281a73f32112a979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _walkSpeed: 10
+  _walkSpeed: 5
   _runSpeed: 0
   sprintMultiplier: 0
   jumpForce: 7
@@ -2347,7 +2347,7 @@ GameObject:
   - component: {fileID: 1205459367}
   m_Layer: 0
   m_Name: Therapist's Door
-  m_TagString: Finish
+  m_TagString: Door2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2612,7 +2612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1291931415
 MonoBehaviour:
   m_ObjectHideFlags: 0

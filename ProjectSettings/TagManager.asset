@@ -10,6 +10,7 @@ TagManager:
   - enemy
   - Object
   - HouseDoor
+  - Door2
   layers:
   - Default
   - TransparentFX
