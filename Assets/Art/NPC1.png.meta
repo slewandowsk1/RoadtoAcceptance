@@ -1,12 +1,11 @@
 fileFormatVersion: 2
-guid: a72da7f87eeb0e74b9a14b896c2f17a4
+guid: cdf78e080971e8f4fa825b64e69f86e1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: idle phase 3_0
-    21300002: idle phase 3_1
-    21300004: idle phase 3_2
-    21300006: idle phase 3_3
-    21300008: idle phase 3_4
+    21300000: NPC1_0
+    21300002: NPC1_1
+    21300004: NPC1_2
+    21300006: NPC1_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -100,101 +99,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle phase 3_0
+      name: NPC1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 769
-        width: 139
-        height: 255
-      alignment: 9
-      pivot: {x: 0.45359707, y: 0.010976515}
+        y: 2076
+        width: 131
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fd79969c4734af44a12cf486e04f78f
+      spriteID: 138b64e658bb08b48a26166968d1a3f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle phase 3_1
+      name: NPC1_1
       rect:
         serializedVersion: 2
-        x: 166
-        y: 731
-        width: 140
-        height: 292
-      alignment: 9
-      pivot: {x: 0.45359707, y: 0.010976515}
+        x: 135
+        y: 2075
+        width: 131
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a735bb4d62a44947839111885dbf7f8
+      spriteID: a981ec0f534db3743a9659f26a0b5017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle phase 3_2
+      name: NPC1_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 407
-        width: 181
-        height: 292
-      alignment: 9
-      pivot: {x: 0.45359707, y: 0.010976515}
+        x: 269
+        y: 2076
+        width: 131
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c088ff66fe7ead842bc68ac7e3d1452e
+      spriteID: abcc2cd0b9664a44db3edcc2a723a2f9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle phase 3_3
+      name: NPC1_3
       rect:
         serializedVersion: 2
-        x: 202
-        y: 394
-        width: 176
-        height: 303
-      alignment: 9
-      pivot: {x: 0.45359707, y: 0.010976515}
+        x: 402
+        y: 2076
+        width: 131
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27ece6b9ccf01ab4596070ced68547bf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: idle phase 3_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 120
-        width: 124
-        height: 247
-      alignment: 9
-      pivot: {x: 0.45359707, y: 0.010976515}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71ca8df2de7f0d94a89ed4937ae17787
+      spriteID: aaa2764d0c5ccee49a5db475c3775b1f
       vertices: []
       indices: 
       edges: []
@@ -202,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3561f5761badccb49aa4e63ccc2eea24
+    spriteID: 49b4e39270141e24a86cc5f596020d04
     vertices: []
     indices: 
     edges: []

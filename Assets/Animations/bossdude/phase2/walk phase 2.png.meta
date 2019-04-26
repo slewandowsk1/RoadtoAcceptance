@@ -1,7 +1,26 @@
 fileFormatVersion: 2
 guid: 37f8ecae96b4d7445b7f91455d4d0871
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: walk phase 2_0
+    21300002: walk phase 2_1
+    21300004: walk phase 2_2
+    21300006: walk phase 2_3
+    21300008: walk phase 2_4
+    21300010: walk phase 2_5
+    21300012: walk phase 2_6
+    21300014: walk phase 2_7
+    21300016: walk phase 2_8
+    21300018: walk phase 2_9
+    21300020: walk phase 2_10
+    21300022: walk phase 2_11
+    21300024: walk phase 2_12
+    21300026: walk phase 2_13
+    21300028: walk phase 2_14
+    21300030: walk phase 2_15
+    21300032: walk phase 2_16
+    21300034: walk phase 2_17
+    21300036: walk phase 2_18
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +88,411 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: walk phase 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1748
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b93080b5f2b4ec4492b37b7688dcc73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1748
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4af9cb3d5c88241a7e53a06d97298f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1748
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f122bca812a6249b4bbbd34c9915de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_3
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1748
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de62515bbf252e04ca6d982f098ea557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1413
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9af85cfc9b5b144282c975f0d3917a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1411
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c911820c618e744a76bfcbb7da0249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1416
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b66fcb3fb1de04f87035c182193cfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_7
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1415
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4feafd47d80384cb9fb63aa4820ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1415
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b9410f596a167846bf5d858ffdb8fa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1077
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f33602876d7c2e45a38dd238b6b5526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1077
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c3d8c26db6efc419df027fa9530617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_11
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1079
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f38e7a86d48c84fa6082c5f73ba710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_12
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1077
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9ea54e67899a44d9508b31f28a3e8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1086
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbf40be3e6d1524a8d9bbba9df996a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 751
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d52b8c28d60b3c40ac8a2fb8a9e8d16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_15
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 753
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fda3f61c53ad6b40a520feddff2725c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_16
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 751
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8500d098bab83b343bd50ac9b79d7d22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_17
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 748
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bedbd8982a6f64f96512703fb7f87f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk phase 2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 420
+        width: 190
+        height: 300
+      alignment: 9
+      pivot: {x: 0.33165455, y: 0.012599284}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d08971770858c4499bead6ad5e40ac4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

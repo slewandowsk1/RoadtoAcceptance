@@ -1,7 +1,16 @@
 fileFormatVersion: 2
 guid: c0e34e8620ed24b46b0f08c8e77b0513
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: phase 2 to 3 transition_0
+    21300002: phase 2 to 3 transition_1
+    21300004: phase 2 to 3 transition_2
+    21300006: phase 2 to 3 transition_3
+    21300008: phase 2 to 3 transition_4
+    21300010: phase 2 to 3 transition_5
+    21300012: phase 2 to 3 transition_6
+    21300014: phase 2 to 3 transition_7
+    21300016: phase 2 to 3 transition_8
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +78,211 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1759
+        width: 279
+        height: 289
+      alignment: 9
+      pivot: {x: 0.30799296, y: 0.024503186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a03cdc9df6e6cc4bb8621afa82d81b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1759
+        width: 279
+        height: 289
+      alignment: 9
+      pivot: {x: 0.30799296, y: 0.024503186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238b1670977c7584ebbe0175b55795db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1740
+        width: 311
+        height: 308
+      alignment: 9
+      pivot: {x: 0.30799296, y: 0.024503186}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37560c8bef9dcb248a068b883cdcc894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1673
+        width: 383
+        height: 375
+      alignment: 9
+      pivot: {x: 0.46610525, y: 0.012080729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d66ad2d7a2c96428fe247e45e6658d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_4
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1673
+        width: 383
+        height: 375
+      alignment: 9
+      pivot: {x: 0.46610525, y: 0.012080729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef628339ca1e7644b361c9fc1077fae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1207
+        width: 521
+        height: 433
+      alignment: 9
+      pivot: {x: 0.51081, y: 0.08738712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bfcaaea768dc346b51b26ad9392066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_6
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1214
+        width: 521
+        height: 433
+      alignment: 9
+      pivot: {x: 0.51081, y: 0.08738712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79169c301c305a245aba46e323b0b566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_7
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1207
+        width: 574
+        height: 433
+      alignment: 9
+      pivot: {x: 0.52298284, y: 0.098144814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b932804ad2c27942b2c04b68b395bc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: phase 2 to 3 transition_8
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 1351
+        width: 279
+        height: 289
+      alignment: 9
+      pivot: {x: 0.35808122, y: 0.040621113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3217c9bd942a0469a846cbcba0b29a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
