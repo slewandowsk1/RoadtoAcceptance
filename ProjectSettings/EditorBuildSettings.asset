@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: ede8ee729cdc45b43a96a104b514a97a
   - enabled: 1
-    path: Assets/Scenes/Scene2.unity
+    path: Assets/Scenes/House.unity
     guid: a572c3efe524c6a4c81db2b2a0c8c1a4
   - enabled: 1
-    path: Assets/Scenes/Scene1.unity
+    path: Assets/Scenes/Outside.unity
     guid: f120e6fc85bb8b74292d55e7cf5eb54a
+  - enabled: 1
+    path: Assets/Scenes/Therapist.unity
+    guid: fce426a12555b0141bddb14a0f9ce8a6
   - enabled: 1
     path: Assets/Scenes/MainGameTest.unity
     guid: b1911dcfd57750340be717314dadc941
