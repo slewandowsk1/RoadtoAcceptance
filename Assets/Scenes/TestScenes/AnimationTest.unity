@@ -424,7 +424,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded362e3204052a4281a73f32112a979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  _walkSpeed: 5
+  _runSpeed: 10
+  sprintMultiplier: 0
   jumpForce: 6
   groundCheck: {fileID: 1492017780}
   checkRadius: 0.5
@@ -586,6 +588,7 @@ MonoBehaviour:
   fullHeart: {fileID: 21300000, guid: 907029da452153e43aaef94da1d159be, type: 3}
   emptyHeart: {fileID: 21300000, guid: 426bb659ca3ceb94da7b816207b07079, type: 3}
   controller: {fileID: 219973838}
+  isDead: 0
 --- !u!95 &219973847
 Animator:
   serializedVersion: 3
