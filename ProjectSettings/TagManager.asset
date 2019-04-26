@@ -4,13 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ground
   - Lift
-  - JumpPad
-  - enemy
   - Object
-  - HouseDoor
+  - ground
   - Door2
+  - HouseDoor
+  - JumpPad
   layers:
   - Default
   - TransparentFX
@@ -20,8 +19,8 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
-  - Player
+  - 
+  - 
   - 
   - 
   - 
