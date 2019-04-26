@@ -118,9 +118,14 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Finish") && Input.GetKeyDown(KeyCode.W))
+        if (other.gameObject.CompareTag("HouseDoor") && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene(2);
         }
+        if (other.gameObject.CompareTag("Door2") && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(3);
+        }
     }
+
 }
