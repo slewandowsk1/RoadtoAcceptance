@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 8ef53dda027dd13479e543d6c90adef9
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: anger walk_0
+    21300002: anger walk_1
+    21300004: anger walk_2
+    21300006: anger walk_3
+    21300008: anger walk_4
+    21300010: anger walk_5
+    21300012: anger walk_6
+    21300014: anger walk_7
+    21300016: anger walk_8
+    21300018: anger walk_9
+    21300020: anger walk_10
+    21300022: anger walk_11
+    21300024: anger walk_12
+    21300026: anger walk_13
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anger walk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1678
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e430a173e225245b3dc1fee7e478b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1678
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f548150018f014dab8694878cacdc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_2
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1678
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf011ad802e89e4ca6b59bd9698661d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_3
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1678
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4e551e5d23cf540b837e1033d96b56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_4
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1678
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a8bf00c227f814fb585f488b06b6a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1252
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e15ec57912124084aa0981a6d6af1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1251
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d72db96780b2b479c4aec9ff7cbe78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_7
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1248
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57654775c8045147bceca7dff6d7585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_8
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1256
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7281a1fa92c2e264986f44ffd89070c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_9
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 1255
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2838d8473b2c82b44af68da4ffcce8f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 820
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c38882847d33b04da16eac1ff98fd4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_11
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 818
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d446ff005e5e0f4e89d29f40aee06c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_12
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 818
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07504835699ba82418d6cf5ce2aff4b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger walk_13
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 814
+        width: 321
+        height: 370
+      alignment: 9
+      pivot: {x: 0.26204687, y: 0.0045429952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6780e868e41b48439bb17f794d260ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c3aa233e65999354d88325b1ba1cc87b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
