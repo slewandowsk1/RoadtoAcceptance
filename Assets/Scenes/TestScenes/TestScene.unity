@@ -424,13 +424,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded362e3204052a4281a73f32112a979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  _walkSpeed: 10
+  _runSpeed: 0
+  sprintMultiplier: 0
   jumpForce: 6
   groundCheck: {fileID: 1492017780}
   checkRadius: 0.5
   WhatIsGrounded:
     serializedVersion: 2
     m_Bits: 256
+  fallThreshold: 0
   MaxJumps: 0
   animator: {fileID: 0}
 --- !u!50 &219973839
@@ -574,6 +577,7 @@ MonoBehaviour:
   invincibilityTime: 1
   maxHealth: 5
   currentHealth: 5
+  animator: {fileID: 0}
   hearts: []
   HeartPanel: {fileID: 955373577}
   heartPrefab: {fileID: 1632695415001120, guid: 2112a958a8aded74489baffa143e622e,
@@ -581,6 +585,7 @@ MonoBehaviour:
   fullHeart: {fileID: 21300000, guid: 907029da452153e43aaef94da1d159be, type: 3}
   emptyHeart: {fileID: 21300000, guid: 426bb659ca3ceb94da7b816207b07079, type: 3}
   controller: {fileID: 219973838}
+  isDead: 0
 --- !u!1001 &220697089
 Prefab:
   m_ObjectHideFlags: 0
