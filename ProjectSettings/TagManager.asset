@@ -10,6 +10,8 @@ TagManager:
   - Door2
   - HouseDoor
   - JumpPad
+  - enemy
+  - Saada
   layers:
   - Default
   - TransparentFX

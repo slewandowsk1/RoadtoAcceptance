@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Therapist.unity
     guid: fce426a12555b0141bddb14a0f9ce8a6
   - enabled: 1
+    path: Assets/Scenes/TestScenes/BossTest.unity
+    guid: 9bd070a3329c1c14fb6e8fe1fb1c5193
+  - enabled: 1
     path: Assets/Scenes/MainGameTest.unity
     guid: b1911dcfd57750340be717314dadc941
   m_configObjects: {}
