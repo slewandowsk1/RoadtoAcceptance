@@ -128,6 +128,10 @@ public class PlayerController : MonoBehaviour
         }
         if (other.gameObject.CompareTag("Saada") && Input.GetKeyDown(KeyCode.E))
             SceneManager.LoadScene(5);
+        
+        if (other.gameObject.CompareTag("afterboss1") && Input.GetKeyDown(KeyCode.E))
+            SceneManager.LoadScene(6);
+        }
+      
     }
 
-}
