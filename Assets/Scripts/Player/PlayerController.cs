@@ -120,14 +120,14 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("HouseDoor") && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
         if (other.gameObject.CompareTag("Door2") && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(4);
         }
         if (other.gameObject.CompareTag("Saada") && Input.GetKeyDown(KeyCode.E))
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
     }
 
 }
