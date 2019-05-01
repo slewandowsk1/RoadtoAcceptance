@@ -37,13 +37,5 @@ public class StartUpGame : MonoBehaviour
 		SceneManager.LoadScene (4);
 	}
 
-    public void MiniRace()
-    {
-        SceneManager.LoadScene(5);
-    }
 
-	public void MiniQuiz ()
-	{
-		SceneManager.LoadScene (6);
-	}
 }

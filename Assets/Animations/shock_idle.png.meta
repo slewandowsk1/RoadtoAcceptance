@@ -117,8 +117,8 @@ TextureImporter:
         y: 728
         width: 79
         height: 296
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.534488, y: 0.0030680476}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,12 +133,12 @@ TextureImporter:
       name: shock_idle_1
       rect:
         serializedVersion: 2
-        x: 149
+        x: 148
         y: 738
         width: 88
         height: 286
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.5877226, y: -0.0015879811}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,8 +157,8 @@ TextureImporter:
         y: 362
         width: 78
         height: 295
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.52213246, y: 0.00065028307}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,8 +177,8 @@ TextureImporter:
         y: 366
         width: 80
         height: 292
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 9
+      pivot: {x: 0.3969, y: 0.0013138235}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

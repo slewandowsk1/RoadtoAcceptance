@@ -5,6 +5,7 @@ public class LiftPlayer : MonoBehaviour
 
     public string Tag;
 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag(Tag))

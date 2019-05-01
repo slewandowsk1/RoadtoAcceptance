@@ -1,0 +1,425 @@
+fileFormatVersion: 2
+guid: 0d01b0630c25b5749975dbc222976e8f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: attack 1 phase 1_0
+    21300002: attack 1 phase 1_1
+    21300004: attack 1 phase 1_2
+    21300006: attack 1 phase 1_3
+    21300008: attack 1 phase 1_4
+    21300010: attack 1 phase 1_5
+    21300012: attack 1 phase 1_6
+    21300014: attack 1 phase 1_7
+    21300016: attack 1 phase 1_8
+    21300018: attack 1 phase 1_9
+    21300020: attack 1 phase 1_10
+    21300022: attack 1 phase 1_11
+    21300024: attack 1 phase 1_12
+    21300026: attack 1 phase 1_13
+    21300028: attack 1 phase 1_14
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: attack 1 phase 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1719
+        width: 561
+        height: 329
+      alignment: 9
+      pivot: {x: 0.38014698, y: 0.0015379376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be78dd145b9d475489315fca9f7f163f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_1
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1715
+        width: 507
+        height: 333
+      alignment: 9
+      pivot: {x: 0.4286658, y: -0.008371221}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92d0d6b56a7f674d83c1cfae5e4caea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_2
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1715
+        width: 507
+        height: 333
+      alignment: 9
+      pivot: {x: 0.39631945, y: -0.0034465618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36351639880bde5428e13d48017a6665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1353
+        width: 497
+        height: 334
+      alignment: 9
+      pivot: {x: 0.39631945, y: -0.0034465618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e47d63194b294d8fed24614bf87b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 1352
+        width: 507
+        height: 333
+      alignment: 9
+      pivot: {x: 0.39631945, y: -0.0034465618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f5afd1ed73df243ab36b2e789e610a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_5
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 1350
+        width: 485
+        height: 333
+      alignment: 9
+      pivot: {x: 0.39631945, y: -0.0034465618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a216a3d0a53fa40bc2f6d8e42014a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_6
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1352
+        width: 485
+        height: 333
+      alignment: 9
+      pivot: {x: 0.39631945, y: -0.0034465618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ca307c21f0421438de494ac60888fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 988
+        width: 561
+        height: 329
+      alignment: 9
+      pivot: {x: 0.3342561, y: 0.0015379376}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f615dd14b41b9894484e1c63e0aa42d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 987
+        width: 597
+        height: 326
+      alignment: 9
+      pivot: {x: 0.32707188, y: 0.0015378613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7629f3f62193414bb8d282e942b7050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_9
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 989
+        width: 655
+        height: 324
+      alignment: 9
+      pivot: {x: 0.29683718, y: 0.0015379352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c388e485a71f72444866f25698c38818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 617
+        width: 642
+        height: 341
+      alignment: 9
+      pivot: {x: 0.25762346, y: 0.0063471193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7d0b27970e3484ea4d5aa13dbfbbd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_11
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 584
+        width: 698
+        height: 366
+      alignment: 9
+      pivot: {x: 0.25762346, y: 0.0063471193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0da5f5524246b641977ff1e552886e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 698
+        height: 366
+      alignment: 9
+      pivot: {x: 0.25762346, y: 0.0063471193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e801e9172f05b04ca264a458ccc2e1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_13
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 200
+        width: 698
+        height: 366
+      alignment: 9
+      pivot: {x: 0.25762346, y: 0.0063471193}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f41c5a00afa999147bbf6af6884dd34c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack 1 phase 1_14
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 201
+        width: 580
+        height: 362
+      alignment: 9
+      pivot: {x: 0.3386742, y: 0.010675926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d939bd293d8084988d911d7a1f3145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bf1d08c770a0cce4abef9fefcdb29e98
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
