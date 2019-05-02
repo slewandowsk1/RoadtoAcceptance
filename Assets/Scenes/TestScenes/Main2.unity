@@ -654,8 +654,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ded362e3204052a4281a73f32112a979, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _walkSpeed: 0
-  _runSpeed: 0
+  _walkSpeed: 5
+  _runSpeed: 10
   sprintMultiplier: 0
   jumpForce: 8
   groundCheck: {fileID: 1492017780}
@@ -1423,7 +1423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 486577265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 102f48e7685dbcc4e806d13b9bc313fd, type: 3}
+  m_Script: {fileID: 11500000, guid: 4a97f1e0bd4077c46a12f7f58cbadc12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 1
@@ -3547,7 +3547,7 @@ GameObject:
   - component: {fileID: 1204617736}
   - component: {fileID: 1204617740}
   m_Layer: 0
-  m_Name: Shock
+  m_Name: Boss
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3585,18 +3585,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027139485, y: 1.5969412}
+  m_Offset: {x: 0.2867787, y: 1.6762755}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.78, y: 3.19}
+    pivot: {x: 0.38790306, y: 0.01738787}
+    oldSize: {x: 5.61, y: 3.33}
     newSize: {x: 0.78, y: 3.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.725721, y: 3.1861176}
+  m_Size: {x: 3.7259965, y: 3.3447862}
   m_EdgeRadius: 0
 --- !u!212 &1204617738
 SpriteRenderer:
@@ -3633,7 +3633,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300032, guid: 9c43ad2d627f6f84aadfd7a9ae961aad, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 46866563e11f156419ef4bc611c5c7a5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3652,7 +3652,7 @@ Transform:
   m_GameObject: {fileID: 1204617735}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.76, y: 0.6, z: -0.048828125}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -3666,7 +3666,7 @@ Animator:
   m_GameObject: {fileID: 1204617735}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ee8395c351d1fed49904fea9e2dcb009, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0a2dc61df02103c4cacc7e10f5132273, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3688,13 +3688,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   damage: 1
-  timeToDamage: 1
+  timeToDamage: 0.5
   invincibilityTime: 1
-  timeSinceHit: 1
-  target: {fileID: 0}
-  healthBar: {fileID: 0}
+  timeSinceHit: 0
+  target: {fileID: 219973837}
+  healthBar: {fileID: 719547086}
   isDead: 0
-  chaseDistance: 0
+  chaseDistance: 10
 --- !u!61 &1204617742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3707,18 +3707,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.7010429, y: 2.0894082}
+  m_Offset: {x: 2.7031143, y: 1.678313}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0}
-    oldSize: {x: 0.78, y: 3.19}
+    pivot: {x: 0.38790306, y: 0.01738787}
+    oldSize: {x: 5.61, y: 3.33}
     newSize: {x: 0.78, y: 3.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7450414, y: 4.1788163}
+  m_Size: {x: 1.1200767, y: 3.356626}
   m_EdgeRadius: 0
 --- !u!1 &1218523822
 GameObject:
