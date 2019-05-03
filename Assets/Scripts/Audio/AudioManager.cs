@@ -1,6 +1,7 @@
 ﻿using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
 
@@ -14,6 +15,8 @@ public class AudioManager : MonoBehaviour {
 
     // Use this for initialization
     void Awake () {
+        DontDestroyOnLoad(gameObject);
+
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -27,8 +30,12 @@ public class AudioManager : MonoBehaviour {
 	}
     private void Start()
     {
-        Play("Main menu music");
+        {
+            Play("MainMenuMusic");
+        }
+        
     }
+
 
     //FindObjectOfType<AudioManager>().Play("AudioName");
 
@@ -59,5 +66,7 @@ public class AudioManager : MonoBehaviour {
     {
         audioMixer.SetFloat("musicVolume", musicVolume);
     }
+
+
 }
    

@@ -121,20 +121,24 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("HouseDoor") && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene(3);
+            //findObjectOfType<AudioManager>().Play("");
+
         }
         if (other.gameObject.CompareTag("Door2") && Input.GetKeyDown(KeyCode.E))
         { 
             SceneManager.LoadScene(4);
+            //findObjectOfType<AudioManager>().Play("");
         }
         if (other.gameObject.CompareTag("Saada") && Input.GetKeyDown(KeyCode.E))
         {
             SceneManager.LoadScene(5);
+            //findObjectOfType<AudioManager>().Play("");
         }
-            
-        
+
+
         //if (other.gameObject.CompareTag("afterboss1") && Input.GetKeyDown(KeyCode.E))
-            //SceneManager.LoadScene(6);
-        }
+        //SceneManager.LoadScene(6);
+    }
       
     }
 
