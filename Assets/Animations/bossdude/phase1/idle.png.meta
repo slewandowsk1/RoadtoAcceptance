@@ -1,22 +1,17 @@
 fileFormatVersion: 2
-guid: 1735e65691065ea488b0b6991831af84
+guid: a060a5def0c80d24c8583f0703d9b2b1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: phase 1 to 2 transition_0
-    21300002: phase 1 to 2 transition_1
-    21300004: phase 1 to 2 transition_2
-    21300006: phase 1 to 2 transition_3
-    21300008: phase 1 to 2 transition_4
-    21300010: phase 1 to 2 transition_5
-    21300012: phase 1 to 2 transition_6
-    21300014: phase 1 to 2 transition_7
-    21300016: phase 1 to 2 transition_8
-    21300018: phase 1 to 2 transition_9
-    21300020: phase 1 to 2 transition_10
-    21300022: phase 1 to 2 transition_11
-    21300024: phase 1 to 2 transition_12
-    21300026: phase 1 to 2 transition_13
-    21300028: phase 1 to 2 transition_14
+    21300000: idle_0
+    21300002: idle_1
+    21300004: idle_2
+    21300006: idle_3
+    21300008: idle_4
+    21300010: idle_5
+    21300012: idle_6
+    21300014: idle_7
+    21300016: idle_8
+    21300018: idle_9
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -110,301 +105,201 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: phase 1 to 2 transition_0
+      name: idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3763
-        width: 553
-        height: 333
+        y: 1724
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.2776774, y: 0.0077289203}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c270ca2ae5e5424cbad883528fadf98
+      spriteID: c989b0a5df9f8bc43ac66686d16d02cb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_1
+      name: idle_1
       rect:
         serializedVersion: 2
-        x: 569
-        y: 3763
-        width: 553
-        height: 333
+        x: 624
+        y: 1724
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.2776774, y: 0.0077289203}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f6ea28dac0c1874e8a4da429b999057
+      spriteID: f6fdd4852deb5d949afd5e8794d7b0f3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_2
+      name: idle_2
       rect:
         serializedVersion: 2
-        x: 1127
-        y: 3763
-        width: 553
-        height: 333
+        x: 1238
+        y: 1724
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.2776774, y: 0.0077289203}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef6e9dfff50aee4409a3b3c749ed10b1
+      spriteID: 2eca4827b12907d48bf590ae555535ae
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 3326
-        width: 508
-        height: 329
-      alignment: 9
-      pivot: {x: 0.28451034, y: 0.007728646}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f34d976173e46c408ef4b094b863059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_4
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 3326
-        width: 508
-        height: 329
-      alignment: 9
-      pivot: {x: 0.31525847, y: 0.007728646}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e555577ba138d2946a5cf4ea0468072b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_5
-      rect:
-        serializedVersion: 2
-        x: 1030
-        y: 3327
-        width: 602
-        height: 328
-      alignment: 9
-      pivot: {x: 0.43922722, y: 0.013019841}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 465233fcbd8c5f248b046379d27ff315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_6
+      name: idle_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 2870
-        width: 602
-        height: 328
+        y: 1320
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.43922722, y: 0.013019841}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 011a70e82a935424ea267103d9a2c5bb
+      spriteID: 029ec7071b1a81b478ef7e1a0de44082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_7
+      name: idle_4
       rect:
         serializedVersion: 2
-        x: 618
-        y: 2847
-        width: 706
-        height: 358
+        x: 599
+        y: 1327
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.43922722, y: 0.013019841}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ca4232e31099945a19cf08929f7136
+      spriteID: 5ca8a3f040feb934a92cd839ed591128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_8
+      name: idle_5
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 2845
-        width: 706
-        height: 358
+        x: 1203
+        y: 1322
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.43922722, y: 0.013019841}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e413e47169a7241855c0a209a229b0
+      spriteID: ddf605b63d7d6f54e8262f696472e7ef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2338
-        width: 578
-        height: 365
-      alignment: 9
-      pivot: {x: 0.43922722, y: 0.013019841}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ce488f4e6d040f4c9633110b80ccecc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_10
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 2336
-        width: 500
-        height: 364
-      alignment: 9
-      pivot: {x: 0.43922722, y: 0.013019841}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 067a1c6f78f93c94c885af907cbe3ace
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_11
-      rect:
-        serializedVersion: 2
-        x: 1065
-        y: 2388
-        width: 473
-        height: 342
-      alignment: 9
-      pivot: {x: 0.5197407, y: 0.034078952}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71585de774b87384d9844e84473d5564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_12
-      rect:
-        serializedVersion: 2
-        x: 1550
-        y: 2398
-        width: 498
-        height: 332
-      alignment: 9
-      pivot: {x: 0.5197407, y: 0.034078952}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 896d7de0c248ad841a3279724c48c8d7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phase 1 to 2 transition_13
+      name: idle_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 1945
-        width: 498
-        height: 332
+        y: 923
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.5197407, y: 0.034078952}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68198cef58a532f4bb8c337b8534c606
+      spriteID: adfe862e36de5b2469bcae4ed92ae25c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phase 1 to 2 transition_14
+      name: idle_7
       rect:
         serializedVersion: 2
-        x: 494
-        y: 1942
-        width: 303
-        height: 326
+        x: 576
+        y: 920
+        width: 582
+        height: 324
       alignment: 9
-      pivot: {x: 0.3342275, y: 0.097603455}
+      pivot: {x: 0.5935573, y: 0.021293357}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987660b75998d89468cabe006f0b152d
+      spriteID: 8b8bf06a62ef25c4a8601765bb5f7f8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_8
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 925
+        width: 582
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5935573, y: 0.021293357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed49112c086d9c4abff26153f5e7ba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 582
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5935573, y: 0.021293357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368a745c232cde44f993ee24b48bffcb
       vertices: []
       indices: 
       edges: []
@@ -412,7 +307,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: be541b4c3d23ee348b9722b9a34036d6
+    spriteID: f5c2101de8bf097469a01b31f406ecfc
     vertices: []
     indices: 
     edges: []

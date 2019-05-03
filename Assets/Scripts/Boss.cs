@@ -44,6 +44,7 @@ public class Boss : MonoBehaviour
         if (health <= 0)
         {
             animator.SetTrigger("Death");
+            Destroy(healthBar.gameObject);
             Destroy(gameObject);
         }
 

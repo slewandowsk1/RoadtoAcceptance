@@ -1,22 +1,27 @@
 fileFormatVersion: 2
-guid: 0d01b0630c25b5749975dbc222976e8f
+guid: 0cb0a1a937a9d394d9998f37b9a443e5
 TextureImporter:
   fileIDToRecycleName:
-    21300000: attack 1 phase 1_0
-    21300002: attack 1 phase 1_1
-    21300004: attack 1 phase 1_2
-    21300006: attack 1 phase 1_3
-    21300008: attack 1 phase 1_4
-    21300010: attack 1 phase 1_5
-    21300012: attack 1 phase 1_6
-    21300014: attack 1 phase 1_7
-    21300016: attack 1 phase 1_8
-    21300018: attack 1 phase 1_9
-    21300020: attack 1 phase 1_10
-    21300022: attack 1 phase 1_11
-    21300024: attack 1 phase 1_12
-    21300026: attack 1 phase 1_13
-    21300028: attack 1 phase 1_14
+    21300000: transition from 1 to 2_0
+    21300002: transition from 1 to 2_1
+    21300004: transition from 1 to 2_2
+    21300006: transition from 1 to 2_3
+    21300008: transition from 1 to 2_4
+    21300010: transition from 1 to 2_5
+    21300012: transition from 1 to 2_6
+    21300014: transition from 1 to 2_7
+    21300016: transition from 1 to 2_8
+    21300018: transition from 1 to 2_9
+    21300020: transition from 1 to 2_10
+    21300022: transition from 1 to 2_11
+    21300024: transition from 1 to 2_12
+    21300026: transition from 1 to 2_13
+    21300028: transition from 1 to 2_14
+    21300030: transition from 1 to 2_15
+    21300032: transition from 1 to 2_16
+    21300034: transition from 1 to 2_17
+    21300036: transition from 1 to 2_18
+    21300038: transition from 1 to 2_19
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -60,7 +65,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,301 +115,401 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: attack 1 phase 1_0
+      name: transition from 1 to 2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1719
-        width: 561
-        height: 329
+        y: 3745
+        width: 536
+        height: 351
       alignment: 9
-      pivot: {x: 0.38014698, y: 0.0015379376}
+      pivot: {x: 0.53667, y: 0.06535318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be78dd145b9d475489315fca9f7f163f
+      spriteID: 9608fb63c2797684e9d3530457b8075e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack 1 phase 1_1
-      rect:
-        serializedVersion: 2
-        x: 567
-        y: 1715
-        width: 507
-        height: 333
-      alignment: 9
-      pivot: {x: 0.4286658, y: -0.008371221}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e92d0d6b56a7f674d83c1cfae5e4caea
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_2
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 1715
-        width: 507
-        height: 333
-      alignment: 9
-      pivot: {x: 0.39631945, y: -0.0034465618}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36351639880bde5428e13d48017a6665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_3
+      name: transition from 1 to 2_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 1353
-        width: 497
-        height: 334
+        y: 3745
+        width: 536
+        height: 351
       alignment: 9
-      pivot: {x: 0.39631945, y: -0.0034465618}
+      pivot: {x: 0.53667, y: 0.06535318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6e47d63194b294d8fed24614bf87b0
+      spriteID: 05e51d2028fa3e64b97dc5a60ecadc02
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack 1 phase 1_4
-      rect:
-        serializedVersion: 2
-        x: 497
-        y: 1352
-        width: 507
-        height: 333
-      alignment: 9
-      pivot: {x: 0.39631945, y: -0.0034465618}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 87f5afd1ed73df243ab36b2e789e610a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_5
-      rect:
-        serializedVersion: 2
-        x: 1004
-        y: 1350
-        width: 485
-        height: 333
-      alignment: 9
-      pivot: {x: 0.39631945, y: -0.0034465618}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21a216a3d0a53fa40bc2f6d8e42014a9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_6
-      rect:
-        serializedVersion: 2
-        x: 1494
-        y: 1352
-        width: 485
-        height: 333
-      alignment: 9
-      pivot: {x: 0.39631945, y: -0.0034465618}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49ca307c21f0421438de494ac60888fc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_7
+      name: transition from 1 to 2_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 988
-        width: 561
-        height: 329
+        y: 3745
+        width: 536
+        height: 351
       alignment: 9
-      pivot: {x: 0.3342561, y: 0.0015379376}
+      pivot: {x: 0.53667, y: 0.06535318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f615dd14b41b9894484e1c63e0aa42d0
+      spriteID: 8e10b9c06cf095444a8a9d5fe467faaf
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack 1 phase 1_8
+      name: transition from 1 to 2_3
       rect:
         serializedVersion: 2
-        x: 560
-        y: 987
-        width: 597
-        height: 326
+        x: 0
+        y: 3745
+        width: 536
+        height: 351
       alignment: 9
-      pivot: {x: 0.32707188, y: 0.0015378613}
+      pivot: {x: 0.53667, y: 0.06535318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7629f3f62193414bb8d282e942b7050
+      spriteID: 7b698f694ffecdc4295314a8fc425701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: attack 1 phase 1_9
+      name: transition from 1 to 2_4
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 989
-        width: 655
+        x: 0
+        y: 3745
+        width: 536
+        height: 351
+      alignment: 9
+      pivot: {x: 0.53667, y: 0.06535318}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc816ef0ce39404da41c224a49623bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_5
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 3722
+        width: 522
+        height: 374
+      alignment: 9
+      pivot: {x: 0.5739842, y: 0.114753924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d19a25be38f6d4095a6d0950c57321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_6
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 3682
+        width: 533
+        height: 414
+      alignment: 9
+      pivot: {x: 0.68114364, y: 0.15915138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f336da328d315b2478a58d519fd71335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3198
+        width: 583
+        height: 441
+      alignment: 9
+      pivot: {x: 0.47505412, y: 0.18011045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afdd245e6be378439f313f0ac113db1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 3178
+        width: 602
+        height: 468
+      alignment: 9
+      pivot: {x: 0.50483173, y: 0.18613532}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a4356b447ec744ea628d3131f4c0d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_9
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 3175
+        width: 680
+        height: 480
+      alignment: 9
+      pivot: {x: 0.54691195, y: 0.23416595}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df0fde30676ade458b3d55aa8889dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2625
+        width: 632
+        height: 507
+      alignment: 9
+      pivot: {x: 0.57743526, y: 0.21041936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197f9fb798c51d24494520e9c2e1734e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_11
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2621
+        width: 729
+        height: 492
+      alignment: 9
+      pivot: {x: 0.51459384, y: 0.22753955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd48064b2bef6574d90b68636b30f0b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2080
+        width: 698
+        height: 483
+      alignment: 9
+      pivot: {x: 0.50720865, y: 0.20310427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654cf9c9bc7ce67479b3bc1e479c9163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_13
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 2088
+        width: 702
+        height: 470
+      alignment: 9
+      pivot: {x: 0.47849753, y: 0.18418644}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6924963db861cfd4cbe142c7f56ab682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_14
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 2116
+        width: 595
+        height: 493
+      alignment: 9
+      pivot: {x: 0.614162, y: 0.22953874}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b11ab2475867eb4e8b1936ad6b82b28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1652
+        width: 521
+        height: 394
+      alignment: 9
+      pivot: {x: 0.7657887, y: 0.092508845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c3c06ad6afc7d4383db5c18edf0fb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1658
+        width: 492
+        height: 374
+      alignment: 9
+      pivot: {x: 0.8426408, y: 0.19413684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b8fb941708e914a91fe8fd25715354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_17
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1703
+        width: 576
+        height: 353
+      alignment: 9
+      pivot: {x: 0.72298855, y: 0.10771789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38e0c42fc3560344b70842764cbe5a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1270
+        width: 547
+        height: 340
+      alignment: 9
+      pivot: {x: 0.7761164, y: 0.06013327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee57a1b3559bffc448cb117b2d418bfb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transition from 1 to 2_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1272
+        width: 378
         height: 324
       alignment: 9
-      pivot: {x: 0.29683718, y: 0.0015379352}
+      pivot: {x: 0.6018502, y: 0.05212214}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c388e485a71f72444866f25698c38818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_10
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 617
-        width: 642
-        height: 341
-      alignment: 9
-      pivot: {x: 0.25762346, y: 0.0063471193}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c7d0b27970e3484ea4d5aa13dbfbbd5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_11
-      rect:
-        serializedVersion: 2
-        x: 658
-        y: 584
-        width: 698
-        height: 366
-      alignment: 9
-      pivot: {x: 0.25762346, y: 0.0063471193}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0da5f5524246b641977ff1e552886e2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 199
-        width: 698
-        height: 366
-      alignment: 9
-      pivot: {x: 0.25762346, y: 0.0063471193}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e801e9172f05b04ca264a458ccc2e1e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_13
-      rect:
-        serializedVersion: 2
-        x: 747
-        y: 200
-        width: 698
-        height: 366
-      alignment: 9
-      pivot: {x: 0.25762346, y: 0.0063471193}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f41c5a00afa999147bbf6af6884dd34c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: attack 1 phase 1_14
-      rect:
-        serializedVersion: 2
-        x: 1468
-        y: 201
-        width: 580
-        height: 362
-      alignment: 9
-      pivot: {x: 0.3386742, y: 0.010675926}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55d939bd293d8084988d911d7a1f3145
+      spriteID: f273a17244f5e2443987e33314537fbd
       vertices: []
       indices: 
       edges: []
@@ -412,7 +517,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bf1d08c770a0cce4abef9fefcdb29e98
+    spriteID: a0cfe2e72ee4ff142a083ee2df865302
     vertices: []
     indices: 
     edges: []
