@@ -12,6 +12,7 @@ TagManager:
   - JumpPad
   - enemy
   - Saada
+  - afterboss1
   layers:
   - Default
   - TransparentFX
