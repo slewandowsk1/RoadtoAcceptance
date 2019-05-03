@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: f0c9663eb20203c4abe8013ef80e9190
+guid: 485bda1bcaa19e4418b3848d707b1b78
 TextureImporter:
   fileIDToRecycleName:
-    21300000: walk phase 3_0
-    21300002: walk phase 3_1
-    21300004: walk phase 3_2
-    21300006: walk phase 3_3
-    21300008: walk phase 3_4
-    21300010: walk phase 3_5
-    21300012: walk phase 3_6
-    21300014: walk phase 3_7
-    21300016: walk phase 3_8
-    21300018: walk phase 3_9
-    21300020: walk phase 3_10
-    21300022: walk phase 3_11
-    21300024: walk phase 3_12
-    21300026: walk phase 3_13
-    21300028: walk phase 3_14
-    21300030: walk phase 3_15
-    21300032: walk phase 3_16
-    21300034: walk phase 3_17
-    21300036: walk phase 3_18
-    21300038: walk phase 3_19
-    21300040: walk phase 3_20
-    21300042: walk phase 3_21
-    21300044: walk phase 3_22
-    21300046: walk phase 3_23
+    21300000: run_0
+    21300002: run_1
+    21300004: run_2
+    21300006: run_3
+    21300008: run_4
+    21300010: run_5
+    21300012: run_6
+    21300014: run_7
+    21300016: run_8
+    21300018: run_9
+    21300020: run_10
+    21300022: run_11
+    21300024: run_12
+    21300026: run_13
+    21300028: run_14
+    21300030: run_15
+    21300032: run_16
+    21300034: run_17
+    21300036: run_18
+    21300038: run_19
+    21300040: run_20
+    21300042: run_21
+    21300044: run_22
+    21300046: run_23
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -119,481 +119,481 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: walk phase 3_0
+      name: run_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1804
-        width: 175
-        height: 244
+        y: 1798
+        width: 165
+        height: 250
       alignment: 9
-      pivot: {x: 0.40648744, y: 0.049682617}
+      pivot: {x: 0.48826364, y: 0.04040332}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 145791b8a663f74409bebf6944dbd1e8
+      spriteID: cc02e9f19b380ac4d8713a2c6f85daea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: walk phase 3_1
-      rect:
-        serializedVersion: 2
-        x: 182
-        y: 1792
-        width: 193
-        height: 256
-      alignment: 9
-      pivot: {x: 0.43337855, y: 0.011432171}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e868628bffad4064f9a8f21a89faf3b1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_2
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 1789
-        width: 187
-        height: 259
-      alignment: 9
-      pivot: {x: 0.4249899, y: 0.003551822}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e60b641b7d894f8488adfcdd1a94692d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_3
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 1802
-        width: 224
-        height: 246
-      alignment: 9
-      pivot: {x: 0.4373801, y: 0.010578435}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a313106b128cd64fb593fdeb4ed34da
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_4
-      rect:
-        serializedVersion: 2
-        x: 813
-        y: 1789
-        width: 211
-        height: 259
-      alignment: 9
-      pivot: {x: 0.49446055, y: -0.00096148043}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25f981704438dea49baf667dfc541870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1494
-        width: 207
-        height: 264
-      alignment: 9
-      pivot: {x: 0.40400288, y: 0.04837591}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 223a23e0aa1e41d48892086276b9910c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_6
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 1525
-        width: 221
-        height: 237
-      alignment: 9
-      pivot: {x: 0.41537324, y: 0.026517587}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28a257783043b6043ac9784765c33b45
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_7
-      rect:
-        serializedVersion: 2
-        x: 476
-        y: 1497
-        width: 188
-        height: 261
-      alignment: 9
-      pivot: {x: 0.48134726, y: 0.0073560225}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc9e028b10687f7479a4ee4b5ad95782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_8
-      rect:
-        serializedVersion: 2
-        x: 700
-        y: 1493
-        width: 205
-        height: 248
-      alignment: 9
-      pivot: {x: 0.44868195, y: 0.00038540747}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8174a666ad9255f42b7ddd1e586b6316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1227
-        width: 149
-        height: 235
-      alignment: 9
-      pivot: {x: 0.32832184, y: 0.0017962516}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9eb530bb4247ce4cbf7c96c354dc879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_10
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 1208
-        width: 147
-        height: 249
-      alignment: 9
-      pivot: {x: 0.3059077, y: 0.006100574}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80c87b3d663b7e747bab3836d57757cd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_11
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 1195
-        width: 202
-        height: 268
-      alignment: 9
-      pivot: {x: 0.4220714, y: 0.033773392}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9134c6046daf5a94a9917b62b739e292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_12
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 1230
-        width: 204
-        height: 232
-      alignment: 9
-      pivot: {x: 0.3890758, y: 0.016557364}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fedfb5a22dc90ed429f8443dc6b7ead9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_13
-      rect:
-        serializedVersion: 2
-        x: 773
-        y: 1194
-        width: 205
-        height: 272
-      alignment: 9
-      pivot: {x: 0.43760955, y: 0.011693169}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbcdc8ed3b634d04093ebdd9cc08214f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_14
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 900
-        width: 217
-        height: 263
-      alignment: 9
-      pivot: {x: 0.41919988, y: 0.0066577056}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54ab8f95e1314174c915eac61580f385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_15
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 927
-        width: 228
-        height: 233
-      alignment: 9
-      pivot: {x: 0.4487322, y: 0.0033385968}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7afb45ac1721e246809ba3d7c84fa66
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_16
-      rect:
-        serializedVersion: 2
-        x: 477
-        y: 906
-        width: 213
-        height: 258
-      alignment: 9
-      pivot: {x: 0.45609766, y: 0.0016276041}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3ed42780fd973d42a2d7ffbaef12119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_17
-      rect:
-        serializedVersion: 2
-        x: 710
-        y: 900
-        width: 210
-        height: 256
-      alignment: 9
-      pivot: {x: 0.49443418, y: -0.0022659302}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d6bcd2bc026dc54fb2d21e2d7bbad95
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_18
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 622
-        width: 213
-        height: 255
-      alignment: 9
-      pivot: {x: 0.48353654, y: 0.009516458}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c3f944ea5b66dd4dab00ccb818f2e22
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_19
-      rect:
-        serializedVersion: 2
-        x: 229
-        y: 600
-        width: 236
-        height: 275
-      alignment: 9
-      pivot: {x: 0.48514116, y: 0.015433905}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53b30daf2bd7287439e4809a248e2cf5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_20
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 606
-        width: 200
-        height: 265
-      alignment: 9
-      pivot: {x: 0.39479828, y: 0.0015590452}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df3306589d3d8364ca0794ba4893e028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_21
-      rect:
-        serializedVersion: 2
-        x: 703
-        y: 640
-        width: 194
-        height: 232
-      alignment: 9
-      pivot: {x: 0.44577247, y: 0.001198078}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: caa4cf44fa71d9a49b7344558fbf85d8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_22
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 308
-        width: 151
-        height: 268
-      alignment: 9
-      pivot: {x: 0.31456512, y: 0.041195314}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 605ff74bb21827f4a934bc8d7f0026ae
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: walk phase 3_23
+      name: run_1
       rect:
         serializedVersion: 2
         x: 165
-        y: 305
-        width: 158
-        height: 271
+        y: 1787
+        width: 164
+        height: 261
       alignment: 9
-      pivot: {x: 0.31507507, y: -0.0031416214}
+      pivot: {x: 0.5512394, y: 0.020618191}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49107b938aa7de64da5d6646a3258eb6
+      spriteID: ae6f8d71716bb9441b2a75aa0a91a3fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_2
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1786
+        width: 164
+        height: 261
+      alignment: 9
+      pivot: {x: 0.5512394, y: 0.020618191}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6a56cab925a884a83b21486a2d47f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1792
+        width: 202
+        height: 256
+      alignment: 9
+      pivot: {x: 0.56082606, y: -0.01468277}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90443a4981de10d4d9c4e432f7318326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_4
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1783
+        width: 202
+        height: 256
+      alignment: 9
+      pivot: {x: 0.53128594, y: -0.018012524}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221b0b9eb724d0845abbae2904e23b7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1535
+        width: 206
+        height: 257
+      alignment: 9
+      pivot: {x: 0.58094305, y: 0.0018890025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe17e87a1b1966b4fb8416abe5c7c605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1531
+        width: 206
+        height: 257
+      alignment: 9
+      pivot: {x: 0.62198365, y: 0.100576915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8582d3ac0a8dac44dae3e347f1d5d227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_7
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1524
+        width: 196
+        height: 264
+      alignment: 9
+      pivot: {x: 0.52646965, y: 0.015939424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c990387581f9dc4fbf46e80c896fb3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_8
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1521
+        width: 194
+        height: 264
+      alignment: 9
+      pivot: {x: 0.52646965, y: 0.015939424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c20018f4be91848bc8d33ded8c41af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_9
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1548
+        width: 162
+        height: 234
+      alignment: 9
+      pivot: {x: 0.6395267, y: 0.03550681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59db54b4a0bb0840b7db59e5e7bebb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1269
+        width: 143
+        height: 260
+      alignment: 9
+      pivot: {x: 0.6639956, y: 0.005150898}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0b434cc9f29a742b1e5a3846bd6297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1263
+        width: 191
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5673694, y: 0.031034667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c44e953cd0759a4691fbcbf302da74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_12
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1270
+        width: 191
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5630907, y: 0.04084082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83121722007ce4294f96eecf51dfe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_13
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1253
+        width: 191
+        height: 250
+      alignment: 9
+      pivot: {x: 0.5630907, y: 0.04084082}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f5fb06d630c84192f688d56f04bea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_14
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1258
+        width: 212
+        height: 247
+      alignment: 9
+      pivot: {x: 0.5708002, y: -0.025329838}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed53edb740788648bafe6e330cc49b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 213
+        height: 258
+      alignment: 9
+      pivot: {x: 0.5374553, y: 0.039602354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114a6ce9abe701c4a80e419f703a6a3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 997
+        width: 194
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5465939, y: 0.0023857292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9542386d365398441a71de070400e294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 993
+        width: 194
+        height: 262
+      alignment: 9
+      pivot: {x: 0.5054707, y: -0.024681034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fa1eacd6413fb4daa073a6839a0d78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_18
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1003
+        width: 216
+        height: 247
+      alignment: 9
+      pivot: {x: 0.54362655, y: -0.08400142}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63391c9b4d7d464ab9fea7677c5affe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 727
+        width: 209
+        height: 268
+      alignment: 9
+      pivot: {x: 0.5337588, y: -0.05322038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20917f443cf5e8479918bccd091318e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 727
+        width: 190
+        height: 265
+      alignment: 9
+      pivot: {x: 0.5337588, y: -0.05322038}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b842679479988439c044123f9309a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_21
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 731
+        width: 173
+        height: 263
+      alignment: 9
+      pivot: {x: 0.5387757, y: 0.012780948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8050ec598be0d6a42914c6ba53dc4256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_22
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 730
+        width: 134
+        height: 262
+      alignment: 9
+      pivot: {x: 0.6164997, y: 0.045907754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2f213540eb68f41a4502a09a85901f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: run_23
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 728
+        width: 134
+        height: 262
+      alignment: 9
+      pivot: {x: 0.6229767, y: 0.032657303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa14a216d534dd47adedb99439b2fd5
       vertices: []
       indices: 
       edges: []
@@ -601,7 +601,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 47a4af02b1cb7cf4293099411ef0cbd0
+    spriteID: 29b1962f6e753894f9d5ebb644885e4d
     vertices: []
     indices: 
     edges: []
