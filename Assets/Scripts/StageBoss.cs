@@ -36,16 +36,20 @@ public class StageBoss : MonoBehaviour
       
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
-        /*if (health <= 25)
+        if (health <= 8)
         {
-            animator.SetTrigger("stageTwo");
+            animator.SetTrigger("StageTwo");
         }
-        */
+        if (health <= 3)
+        {
+            animator.SetTrigger("StageThree");
+        }
+        
         if (health <= 0)
         {
             animator.SetTrigger("Death");
             Destroy(healthBar.gameObject);
-            Destroy(gameObject);
+            Destroy(gameObject, 1);
         }
 
         // give the player some time to recover before taking more damage !
@@ -59,7 +63,7 @@ public class StageBoss : MonoBehaviour
 
         if (Vector2.SqrMagnitude(targetDistance) < chaseDistance)
         {
-            rb.AddForce(-targetDistance.normalized * 250.0f * Time.deltaTime);
+            rb.AddForce(-targetDistance.normalized * 300.0f * Time.deltaTime);
             animator.SetTrigger("Chase");
         }
         else
