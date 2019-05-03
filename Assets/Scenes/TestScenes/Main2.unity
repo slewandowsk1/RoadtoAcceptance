@@ -821,8 +821,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   invincibilityTime: 1
-  maxHealth: 6
-  currentHealth: 5
+  maxHealth: 8
+  currentHealth: 8
   animator: {fileID: 219973847}
   hearts: []
   HeartPanel: {fileID: 955373577}
@@ -3688,7 +3688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   damage: 1
-  timeToDamage: 0.5
+  timeToDamage: 1.5
   invincibilityTime: 1
   timeSinceHit: 0
   target: {fileID: 219973837}
@@ -3707,7 +3707,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.9443349, y: 1.6390388}
+  m_Offset: {x: -2.9916477, y: 1.6390388}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5935573, y: 0.021293357}
@@ -3718,7 +3718,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3033574, y: 3.2780776}
+  m_Size: {x: 3.3979826, y: 3.2780776}
   m_EdgeRadius: 0
 --- !u!1 &1218523822
 GameObject:
