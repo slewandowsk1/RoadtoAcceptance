@@ -2344,6 +2344,7 @@ GameObject:
   - component: {fileID: 831162862}
   - component: {fileID: 831162861}
   - component: {fileID: 831162863}
+  - component: {fileID: 831162864}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: afterboss1
@@ -2424,6 +2425,17 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!122 &831162864
+Halo:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831162860}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4289520354
+  m_Size: 2
 --- !u!1 &846240388
 GameObject:
   m_ObjectHideFlags: 0
