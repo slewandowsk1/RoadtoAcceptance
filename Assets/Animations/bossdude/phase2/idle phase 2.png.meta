@@ -107,16 +107,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 735
-        width: 173
+        width: 153
         height: 289
-      alignment: 9
-      pivot: {x: 0.51354635, y: 0.0012929316}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c4d224a18347e84cbeb394dd61480f1
+      spriteID: 35233aa97e7482a48a747d6e16915327
       vertices: []
       indices: 
       edges: []
@@ -125,18 +125,18 @@ TextureImporter:
       name: idle phase 2_1
       rect:
         serializedVersion: 2
-        x: 182
+        x: 184
         y: 735
-        width: 173
+        width: 154
         height: 289
-      alignment: 9
-      pivot: {x: 0.62869036, y: 0.00534744}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eef4430b7c1a11b479c74722dc603127
+      spriteID: f4fd48525ef82564d9d35dd3b1fe503c
       vertices: []
       indices: 
       edges: []
@@ -145,18 +145,18 @@ TextureImporter:
       name: idle phase 2_2
       rect:
         serializedVersion: 2
-        x: 368
+        x: 369
         y: 735
-        width: 173
+        width: 154
         height: 289
-      alignment: 9
-      pivot: {x: 0.62869036, y: 0.00534744}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfda6a8beddecbd46aa16c36b38daa34
+      spriteID: 3e4b09f36e9e44542b704d8d2fdbc627
       vertices: []
       indices: 
       edges: []
@@ -165,18 +165,18 @@ TextureImporter:
       name: idle phase 2_3
       rect:
         serializedVersion: 2
-        x: 553
+        x: 554
         y: 735
-        width: 173
+        width: 154
         height: 289
-      alignment: 9
-      pivot: {x: 0.62869036, y: 0.00534744}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d9bbee0f2039c4dac30b8928bddee9
+      spriteID: 4ba30b6e45de67f41abd128db5590aad
       vertices: []
       indices: 
       edges: []
@@ -185,18 +185,18 @@ TextureImporter:
       name: idle phase 2_4
       rect:
         serializedVersion: 2
-        x: 740
+        x: 739
         y: 735
-        width: 173
+        width: 154
         height: 289
-      alignment: 9
-      pivot: {x: 0.62869036, y: 0.00534744}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78b020484894ebe41a264ba3d973ff39
+      spriteID: 5be7ec41337037342a400b9d5aa6789e
       vertices: []
       indices: 
       edges: []
@@ -207,16 +207,16 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 413
-        width: 173
-        height: 289
-      alignment: 9
-      pivot: {x: 0.62869036, y: 0.00534744}
+        width: 153
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc6e33deb7bdd942a9f9f0727da144a
+      spriteID: ef23082bd918b744c9107fa64628b9d4
       vertices: []
       indices: 
       edges: []
@@ -225,18 +225,18 @@ TextureImporter:
       name: idle phase 2_6
       rect:
         serializedVersion: 2
-        x: 185
-        y: 412
-        width: 173
-        height: 289
-      alignment: 9
-      pivot: {x: 0.62869036, y: 0.00534744}
+        x: 184
+        y: 413
+        width: 154
+        height: 290
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9adca5c8288deb49a89cbd732bcb1cf
+      spriteID: ef26cda44d07d494c97e9d900a71c334
       vertices: []
       indices: 
       edges: []
