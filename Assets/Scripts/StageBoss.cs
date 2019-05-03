@@ -7,7 +7,8 @@ public class StageBoss : MonoBehaviour
 {
 
     public int health;
-    public int damage;
+    public int damage = 2;
+    public float speed = 300.0f;
     [SerializeField] private float timeToDamage;
     private float timeBtwDamage = 1.5f;
     [SerializeField] private float invincibilityTime;
@@ -21,7 +22,7 @@ public class StageBoss : MonoBehaviour
     public Slider healthBar;
     private Animator animator;
     public bool isDead;
-    public float chaseDistance;
+    public float chaseDistance = 120;
 
     private bool facingLeft = true;
 
@@ -39,10 +40,18 @@ public class StageBoss : MonoBehaviour
         if (health <= 8)
         {
             animator.SetTrigger("StageTwo");
+            speed = 150.0f;
+            timeToDamage = 2.0f;
+            damage = 3;
+            chaseDistance = 60;
         }
         if (health <= 3)
         {
             animator.SetTrigger("StageThree");
+            speed = 450.0f;
+            timeToDamage = 0.5f;
+            damage = 1;
+            chaseDistance = 180;
         }
         
         if (health <= 0)
@@ -63,7 +72,7 @@ public class StageBoss : MonoBehaviour
 
         if (Vector2.SqrMagnitude(targetDistance) < chaseDistance)
         {
-            rb.AddForce(-targetDistance.normalized * 300.0f * Time.deltaTime);
+            rb.AddForce(-targetDistance.normalized * speed * Time.deltaTime);
             animator.SetTrigger("Chase");
         }
         else
