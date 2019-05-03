@@ -40,12 +40,16 @@ public class StageBoss : MonoBehaviour
         {
             animator.SetTrigger("StageTwo");
         }
+        if (health <= 3)
+        {
+            animator.SetTrigger("StageThree");
+        }
         
         if (health <= 0)
         {
             animator.SetTrigger("Death");
             Destroy(healthBar.gameObject);
-            Destroy(gameObject);
+            Destroy(gameObject, 1);
         }
 
         // give the player some time to recover before taking more damage !
