@@ -59,7 +59,7 @@ public class StageBoss : MonoBehaviour
 
         if (Vector2.SqrMagnitude(targetDistance) < chaseDistance)
         {
-            rb.AddForce(-targetDistance.normalized * 500.0f * Time.deltaTime);
+            rb.AddForce(-targetDistance.normalized * 300.0f * Time.deltaTime);
             animator.SetTrigger("Chase");
         }
         else
