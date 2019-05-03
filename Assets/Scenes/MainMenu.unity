@@ -1283,11 +1283,6 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 1
-    pitch: 1
-    source: {fileID: 0}
   audioMixer: {fileID: 24100000, guid: 62156e8a1ecc5334398edb6955d6c5aa, type: 2}
   _audioGroup: {fileID: 243438952842310174, guid: 62156e8a1ecc5334398edb6955d6c5aa,
     type: 2}

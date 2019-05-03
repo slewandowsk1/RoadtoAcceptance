@@ -27,16 +27,22 @@ public class AudioManager : MonoBehaviour {
 	}
     private void Start()
     {
-        Play("Music");
+        Play("Main menu music");
     }
 
     //FindObjectOfType<AudioManager>().Play("AudioName");
 
     public void Play (string name)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        Debug.Log(s);
-        s.source.Play();
+        try
+        {
+            Sound s = Array.Find(sounds, sound => sound.name == name);
+            Debug.Log(s);
+            s.source.Play();
+        } catch (Exception e)
+        {
+            Debug.Log(name);
+        }
     }
 
     public void SetVolume(float volume)
