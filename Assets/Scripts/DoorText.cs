@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DoorText : MonoBehaviour {
-    public Text pressE;
+    public GameObject pressE;
 
 
 	// Use this for initialization
 	void Start () {
-        pressE.gameObject.SetActive(false);
+        pressE.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -19,11 +19,17 @@ public class DoorText : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        pressE.gameObject.SetActive(true);
+        if (collision.tag == "Player")
+        {
+            pressE.gameObject.SetActive(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        pressE.gameObject.SetActive(false);
+        if (collision.tag == "Player")
+        {
+            pressE.gameObject.SetActive(false);
+        }
     }
 }
