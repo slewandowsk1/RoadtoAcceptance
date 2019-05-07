@@ -1421,10 +1421,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 486577265}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 102f48e7685dbcc4e806d13b9bc313fd, type: 3}
+  m_Script: {fileID: 11500000, guid: ad72723267977184c86d47807a4458b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 1
+  gainHealth: 1
 --- !u!61 &486577268
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1909,7 +1909,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 169.03764, y: 56.903767}
+  m_AnchoredPosition: {x: 169.03764, y: 56.90381}
   m_SizeDelta: {x: 956, y: 538}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &703868610
@@ -2022,9 +2022,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 10
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3642,11 +3642,11 @@ GameObject:
   - component: {fileID: 1204617738}
   - component: {fileID: 1204617742}
   - component: {fileID: 1204617737}
-  - component: {fileID: 1204617741}
   - component: {fileID: 1204617736}
   - component: {fileID: 1204617740}
+  - component: {fileID: 1204617741}
   m_Layer: 0
-  m_Name: Shock
+  m_Name: AngerBoss
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3782,18 +3782,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204617735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4749d2599636edf43bdff2b733eb8422, type: 3}
+  m_Script: {fileID: 11500000, guid: e0f70c9b81d93524fa3b098bc61bccfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  damage: 1
-  timeToDamage: 0.5
+  maxHealth: 20
+  damage: 0
+  speed: 300
+  timeToDamage: 1
   invincibilityTime: 1
   timeSinceHit: 0
   target: {fileID: 219973837}
+  magicNumber: 8
   healthBar: {fileID: 719547086}
   isDead: 0
-  chaseDistance: 25
+  chaseDistance: 60
 --- !u!61 &1204617742
 BoxCollider2D:
   m_ObjectHideFlags: 0
