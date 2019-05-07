@@ -13,6 +13,7 @@ TagManager:
   - enemy
   - Saada
   - afterboss1
+  - toanger
   layers:
   - Default
   - TransparentFX

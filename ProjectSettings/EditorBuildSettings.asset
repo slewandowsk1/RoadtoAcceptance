@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGameTest.unity
     guid: b1911dcfd57750340be717314dadc941
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/Anger.unity
+    guid: cfb3749c2db1f82449f50d88af627c50
+  - enabled: 1
+    path: Assets/Scenes/secondMainGameTest 1.unity
+    guid: 2063607bded49674681462a2a25dfcd5
   m_configObjects: {}
