@@ -140,6 +140,14 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(7);
         }
+        if (other.gameObject.CompareTag("tofinal") && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(8);
+        }
+        if (other.gameObject.CompareTag("lastboss") && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(9);
+        }
             
     }
 }
