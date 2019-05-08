@@ -15,6 +15,7 @@ TagManager:
   - afterboss1
   - toanger
   - tofinal
+  - lastboss
   layers:
   - Default
   - TransparentFX

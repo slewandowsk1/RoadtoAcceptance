@@ -3339,7 +3339,7 @@ GameObject:
   - component: {fileID: 901839873}
   m_Layer: 0
   m_Name: GameObject (1)
-  m_TagString: tofinal
+  m_TagString: lastboss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
