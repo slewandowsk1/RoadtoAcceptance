@@ -14,10 +14,11 @@ public class PauseGame : MonoBehaviour {
 
     public bool stopPlayerMovement;
 
+
     void Update() {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Pause();
+            Pause();   
         }
         
     }
@@ -37,14 +38,14 @@ public class PauseGame : MonoBehaviour {
 
             Canvas.gameObject.SetActive(true);
             Time.timeScale = 0;
-            Player.GetComponent<PlayerController>().enabled = false;
+            //Player.GetComponent<PlayerController>().enabled = false;
 
         }
         else
         {
             Canvas.gameObject.SetActive(false);
             Time.timeScale = 1;
-            Player.GetComponent<PlayerController>().enabled = true;
+            //Player.GetComponent<PlayerController>().enabled = true;
         }
     }
 

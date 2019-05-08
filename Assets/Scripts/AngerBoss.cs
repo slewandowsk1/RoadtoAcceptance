@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StageBoss : MonoBehaviour
+public class AngerBoss : MonoBehaviour
 {
 
     public int health;
+    public int maxHealth;
     public int damage = 2;
     public float speed = 300.0f;
     [SerializeField] private float timeToDamage;
@@ -16,6 +17,8 @@ public class StageBoss : MonoBehaviour
     [SerializeField] private GameObject target;
     Rigidbody2D rb;
     private float timeInsideCollider;
+
+    public float magicNumber;
 
 
     //public Animator camAnim;
@@ -30,6 +33,8 @@ public class StageBoss : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        StartCoroutine(RegenerateHealth());
     }
 
     private void Update()
@@ -37,29 +42,8 @@ public class StageBoss : MonoBehaviour
       
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
-        if (health <= 8)
-        {
-            animator.SetTrigger("StageTwo");
-            speed = 150.0f;
-            timeToDamage = 2.0f;
-            damage = 3;
-            chaseDistance = 60;
-        }
-        if (health <= 3)
-        {
-            animator.SetTrigger("StageThree");
-            speed = 450.0f;
-            timeToDamage = 0.5f;
-            damage = 1;
-            chaseDistance = 180;
-        }
-        
-        if (health <= 0)
-        {
-            animator.SetTrigger("Death");
-            Destroy(healthBar.gameObject);
-            Destroy(gameObject, 1);
-        }
+        var scale = health / magicNumber;
+        transform.localScale = Vector3.one * scale;
 
         // give the player some time to recover before taking more damage !
         if (timeBtwDamage > 0)
@@ -114,12 +98,22 @@ public class StageBoss : MonoBehaviour
         }
     }
 
-    public void Damage(int damage)
+    public void GainHealth(int gainHealth)
     {
         if (timeSinceHit >= invincibilityTime)
         {
-            health -= damage;
+            health += gainHealth;
             timeSinceHit = 0;
+
+        }
+        health = Mathf.Clamp(health, 0, maxHealth);
+    }
+    IEnumerator RegenerateHealth()
+    {
+        while (true)
+        {
+            health = Mathf.Clamp(health - 1, 0, 100);
+            yield return new WaitForSeconds(3);
         }
     }
 }

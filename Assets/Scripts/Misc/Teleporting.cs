@@ -8,7 +8,8 @@ public class Teleporting : MonoBehaviour
     public Transform teleportTarget;
     public GameObject thePlayer;
 
-    void OnTriggerEnter2D(Collider2D other)
+
+    void OnTriggerEnter2D(Collider2D other)  
     {
         thePlayer.transform.position = teleportTarget.transform.position;
     }
