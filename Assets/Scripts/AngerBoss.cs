@@ -33,6 +33,8 @@ public class AngerBoss : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        StartCoroutine(RegenerateHealth());
     }
 
     private void Update()
@@ -105,5 +107,13 @@ public class AngerBoss : MonoBehaviour
 
         }
         health = Mathf.Clamp(health, 0, maxHealth);
+    }
+    IEnumerator RegenerateHealth()
+    {
+        while (true)
+        {
+            health = Mathf.Clamp(health - 1, 0, 100);
+            yield return new WaitForSeconds(3);
+        }
     }
 }
