@@ -24,14 +24,14 @@ EditorBuildSettings:
     path: Assets/Scenes/TestScenes/BossTest.unity
     guid: 9bd070a3329c1c14fb6e8fe1fb1c5193
   - enabled: 1
-    path: Assets/Scenes/MainGameTest.unity
-    guid: b1911dcfd57750340be717314dadc941
+    path: Assets/Scenes/secondMainGameTest 1.unity
+    guid: 2063607bded49674681462a2a25dfcd5
   - enabled: 1
     path: Assets/Scenes/TestScenes/Anger.unity
     guid: cfb3749c2db1f82449f50d88af627c50
   - enabled: 1
-    path: Assets/Scenes/secondMainGameTest 1.unity
-    guid: 2063607bded49674681462a2a25dfcd5
+    path: Assets/Scenes/MainGameTest.unity
+    guid: b1911dcfd57750340be717314dadc941
   - enabled: 1
     path: Assets/Scenes/TestScenes/Main2.unity
     guid: 8f1ca628216c8964bb209f8991d6c43c

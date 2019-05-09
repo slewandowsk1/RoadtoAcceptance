@@ -136,7 +136,7 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(6);
         }
-        if (other.gameObject.CompareTag("toanger") && Input.GetKeyDown(KeyCode.E))
+        if (other.gameObject.CompareTag("toanger"))
         {
             SceneManager.LoadScene(7);
         }
