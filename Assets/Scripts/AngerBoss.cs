@@ -43,7 +43,15 @@ public class AngerBoss : MonoBehaviour
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
         var scale = health / magicNumber;
+        scale = Mathf.Clamp(scale, 0.5f, 1.5f);
         transform.localScale = Vector3.one * scale;
+
+        if (health <= 0)
+        {
+            animator.SetTrigger("Death");
+            Destroy(healthBar.gameObject);
+            Destroy(gameObject, 1);
+        }
 
         // give the player some time to recover before taking more damage !
         if (timeBtwDamage > 0)
