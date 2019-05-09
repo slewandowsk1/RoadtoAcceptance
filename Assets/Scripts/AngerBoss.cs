@@ -43,6 +43,7 @@ public class AngerBoss : MonoBehaviour
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
         var scale = health / magicNumber;
+        scale = Mathf.Clamp(scale, 0.5f, 1.5f);
         transform.localScale = Vector3.one * scale;
 
         if (health <= 0)
