@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 60cee127fcdc63a4397de7b3d1919f5d
+guid: 16b7c05d7aa126c4fb5d03dff743548d
 TextureImporter:
   fileIDToRecycleName:
-    21300000: anger idle_0
-    21300002: anger idle_1
-    21300004: anger idle_2
+    21300000: anger232_0
+    21300002: anger232_1
+    21300004: anger232_2
+    21300006: anger232_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -98,61 +99,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: anger idle_0
+      name: anger232_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 653
-        width: 209
-        height: 371
-      alignment: 9
-      pivot: {x: 0.6121303, y: 0.019926416}
+        y: 651
+        width: 203
+        height: 373
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95e7117be34f1bb4798ab775f52faf02
+      spriteID: 87bd625f08e6d774e8b2bad6fbb244c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anger idle_1
+      name: anger232_1
       rect:
         serializedVersion: 2
-        x: 279
+        x: 280
+        y: 651
+        width: 204
+        height: 373
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8255e350970a08f469c1864633bb4650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anger232_2
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 200
-        width: 209
-        height: 371
-      alignment: 9
-      pivot: {x: 0.6121303, y: 0.019926416}
+        width: 203
+        height: 373
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7420ddfbb404f7646b1aa43b4bc2f65a
+      spriteID: 04973ecb7b8a7e24594d2c250d40a809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: anger idle_2
+      name: anger232_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 201
-        width: 209
-        height: 371
-      alignment: 9
-      pivot: {x: 0.6121303, y: 0.019926416}
+        x: 280
+        y: 200
+        width: 204
+        height: 373
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39fc436662413324aa02bac1c39b3dbd
+      spriteID: 198504157e3bdd14fb90dc9abd0ba1fa
       vertices: []
       indices: 
       edges: []
@@ -160,7 +181,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: bcd635e55a77a404b8120925ecef8c57
+    spriteID: 652c41aa70eb35b469c5bbef9f7e220b
     vertices: []
     indices: 
     edges: []
