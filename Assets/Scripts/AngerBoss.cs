@@ -24,6 +24,7 @@ public class AngerBoss : MonoBehaviour
 
     //public Animator camAnim;
     public Slider healthBar;
+    public AudioSource audioSource;
     private Animator animator;
     public bool isDead;
     public float chaseDistance = 120;
@@ -53,6 +54,7 @@ public class AngerBoss : MonoBehaviour
         {
             animator.SetTrigger("Death");
             Destroy(healthBar.gameObject);
+            Destroy(audioSource.gameObject);
             Destroy(gameObject, 1);
             playerController.canGoThruAngerDoor = true;
         }

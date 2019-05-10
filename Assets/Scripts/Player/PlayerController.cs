@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     //public bool canMove;
 
     public bool canGoThruAngerDoor = false;
+    public bool canGoThruAngerDoor2 = false;
 
     private Rigidbody2D _rb;
     private Vector2 moveVelocity;
@@ -154,7 +155,39 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(9);
         }
-            
+        if (other.gameObject.CompareTag("Credits") && Input.GetKeyDown(KeyCode.E) && canGoThruAngerDoor2 == true)
+        {
+            SceneManager.LoadScene(10);
+        }
+        if (other.gameObject.CompareTag("MainMenu") && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(0);
+        }
+
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Therapist"))
+        {
+            FindObjectOfType<AudioManager>().Play("Therapist");
+        }
+        if (other.gameObject.CompareTag("VoCelus"))
+        {
+            FindObjectOfType<AudioManager>().Play("VoCelus");
+        }
+        if (other.gameObject.CompareTag("VoAnger"))
+        {
+            FindObjectOfType<AudioManager>().Play("VoAnger");
+        }
+        if (other.gameObject.CompareTag("Vo500"))
+        {
+            FindObjectOfType<AudioManager>().Play("Vo500");
+        }
+        if (other.gameObject.CompareTag("VoBoss"))
+        {
+            FindObjectOfType<AudioManager>().Play("VoBoss");
+        }
+
     }
 }
 

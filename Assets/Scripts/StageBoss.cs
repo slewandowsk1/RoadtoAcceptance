@@ -17,6 +17,8 @@ public class StageBoss : MonoBehaviour
     Rigidbody2D rb;
     private float timeInsideCollider;
 
+    PlayerController playerController;
+
 
     //public Animator camAnim;
     public Slider healthBar;
@@ -30,6 +32,8 @@ public class StageBoss : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     private void Update()
@@ -59,6 +63,7 @@ public class StageBoss : MonoBehaviour
             animator.SetTrigger("Death");
             Destroy(healthBar.gameObject);
             Destroy(gameObject, 1);
+            playerController.canGoThruAngerDoor2 = true;
         }
 
         // give the player some time to recover before taking more damage !

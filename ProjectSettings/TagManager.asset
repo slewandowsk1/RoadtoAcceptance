@@ -16,6 +16,12 @@ TagManager:
   - toanger
   - tofinal
   - lastboss
+  - VoCelus
+  - Therapist
+  - VoAnger
+  - Vo500
+  - Credits
+  - MainMenu
   layers:
   - Default
   - TransparentFX

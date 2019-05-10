@@ -15,7 +15,6 @@ public class AudioManager : MonoBehaviour {
 
     // Use this for initialization
     void Awake () {
-        DontDestroyOnLoad(gameObject);
 
         foreach (Sound s in sounds)
         {
@@ -31,7 +30,7 @@ public class AudioManager : MonoBehaviour {
     private void Start()
     {
         {
-            Play("MainMenuMusic");
+         
         }
         
     }
