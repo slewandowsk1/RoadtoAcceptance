@@ -657,7 +657,7 @@ MonoBehaviour:
   _walkSpeed: 5
   _runSpeed: 10
   sprintMultiplier: 0
-  jumpForce: 8
+  jumpForce: 15
   groundCheck: {fileID: 1492017780}
   checkRadius: 0.5
   WhatIsGrounded:

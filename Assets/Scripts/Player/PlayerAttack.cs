@@ -13,6 +13,8 @@ public class PlayerAttack : MonoBehaviour {
 
     private Animator animator;
 
+    
+
     private void Awake()
     {
         animator = gameObject.GetComponent<Animator>();
@@ -27,6 +29,8 @@ public class PlayerAttack : MonoBehaviour {
             attackTimer = attackCd;
 
             attackCollider.enabled = true;
+
+            FindObjectOfType<AudioManager>().Play("attack");
         }
 
         if (attacking)
