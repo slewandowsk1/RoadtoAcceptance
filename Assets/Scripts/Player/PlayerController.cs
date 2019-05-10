@@ -150,6 +150,10 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(9);
         }
+        if (other.gameObject.CompareTag("credits") && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(10);
+        }
             
     }
 }

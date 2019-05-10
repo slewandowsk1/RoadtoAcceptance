@@ -16,6 +16,7 @@ TagManager:
   - toanger
   - tofinal
   - lastboss
+  - credits
   layers:
   - Default
   - TransparentFX
