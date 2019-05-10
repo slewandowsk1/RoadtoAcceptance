@@ -154,6 +154,10 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(10);
         }
+        if (other.gameObject.CompareTag("end") && Input.GetKeyDown(KeyCode.E))
+        {
+            SceneManager.LoadScene(0);
+        }
             
     }
 }
