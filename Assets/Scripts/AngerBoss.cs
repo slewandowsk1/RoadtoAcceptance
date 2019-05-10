@@ -20,6 +20,7 @@ public class AngerBoss : MonoBehaviour
 
     public float magicNumber;
 
+    PlayerController playerController;
 
     //public Animator camAnim;
     public Slider healthBar;
@@ -35,11 +36,13 @@ public class AngerBoss : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         StartCoroutine(RegenerateHealth());
+
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
     }
 
     private void Update()
     {
-      
+        
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
         var scale = health / magicNumber;
@@ -51,6 +54,7 @@ public class AngerBoss : MonoBehaviour
             animator.SetTrigger("Death");
             Destroy(healthBar.gameObject);
             Destroy(gameObject, 1);
+            playerController.canGoThruAngerDoor = true;
         }
 
         // give the player some time to recover before taking more damage !
@@ -121,7 +125,7 @@ public class AngerBoss : MonoBehaviour
         while (true)
         {
             health = Mathf.Clamp(health - 1, 0, 100);
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(4);
         }
     }
 }
