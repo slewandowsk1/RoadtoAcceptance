@@ -1,6 +1,7 @@
 ﻿using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
 
@@ -14,6 +15,8 @@ public class AudioManager : MonoBehaviour {
 
     // Use this for initialization
     void Awake () {
+        DontDestroyOnLoad(gameObject);
+
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -27,16 +30,26 @@ public class AudioManager : MonoBehaviour {
 	}
     private void Start()
     {
-        Play("Music");
+        {
+            Play("MainMenuMusic");
+        }
+        
     }
+
 
     //FindObjectOfType<AudioManager>().Play("AudioName");
 
     public void Play (string name)
     {
-        Sound s = Array.Find(sounds, sound => sound.name == name);
-        Debug.Log(s);
-        s.source.Play();
+        try
+        {
+            Sound s = Array.Find(sounds, sound => sound.name == name);
+            Debug.Log(s);
+            s.source.Play();
+        } catch (Exception e)
+        {
+            Debug.Log(name);
+        }
     }
 
     public void SetVolume(float volume)
@@ -53,5 +66,7 @@ public class AudioManager : MonoBehaviour {
     {
         audioMixer.SetFloat("musicVolume", musicVolume);
     }
+
+
 }
    
