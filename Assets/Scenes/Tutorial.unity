@@ -3786,7 +3786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  damage: 1
+  damage: 0
   timeToDamage: 0.5
   invincibilityTime: 1
   timeSinceHit: 0
@@ -4092,7 +4092,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1291931415
 MonoBehaviour:
   m_ObjectHideFlags: 0

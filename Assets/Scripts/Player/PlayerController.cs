@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
     //public bool canMove;
 
+    public bool canGoThruAngerDoor = false;
+
     private Rigidbody2D _rb;
     private Vector2 moveVelocity;
 
@@ -140,7 +142,7 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(7);
         }
-        if (other.gameObject.CompareTag("tofinal") && Input.GetKeyDown(KeyCode.E))
+        if (other.gameObject.CompareTag("tofinal") && Input.GetKeyDown(KeyCode.E) && canGoThruAngerDoor == true)
         {
             SceneManager.LoadScene(8);
         }
