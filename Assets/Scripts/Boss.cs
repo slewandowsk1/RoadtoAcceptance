@@ -16,6 +16,8 @@ public class Boss : MonoBehaviour
     Rigidbody2D rb;
     private float timeInsideCollider;
 
+    PlayerController playerController;
+
 
     //public Animator camAnim;
     public Slider healthBar;
@@ -29,6 +31,9 @@ public class Boss : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        playerController = GameObject.Find("Player").GetComponent<PlayerController>();
+
     }
 
     private void Update()
@@ -44,6 +49,7 @@ public class Boss : MonoBehaviour
         if (health <= 0)
         {
             animator.SetTrigger("Death");
+            playerController.canGoThruAngerDoor3 = true;
             Destroy(healthBar.gameObject);
             Destroy(gameObject);
         }

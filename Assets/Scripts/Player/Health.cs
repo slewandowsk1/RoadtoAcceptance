@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -73,6 +74,7 @@ public class Health : MonoBehaviour
         controller.enabled = false;
         animator.SetTrigger("Die");
         isDead = true;
+        SceneManager.LoadScene(11);
     }  
     public void hit(int damage)
     {

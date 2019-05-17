@@ -26,8 +26,9 @@ public class AngerBoss : MonoBehaviour
     public Slider healthBar;
     public AudioSource audioSource;
     private Animator animator;
-    public bool isDead;
+    public bool isDead = false;
     public float chaseDistance = 120;
+    float deadTimer = 0.0f;
 
     private bool facingLeft = true;
 
@@ -43,7 +44,7 @@ public class AngerBoss : MonoBehaviour
 
     private void Update()
     {
-        
+
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
         var scale = health / magicNumber;
@@ -53,11 +54,30 @@ public class AngerBoss : MonoBehaviour
         if (health <= 0)
         {
             animator.SetTrigger("Death");
+            Destroy(gameObject, 1.0f);
             Destroy(healthBar.gameObject);
             Destroy(audioSource.gameObject);
-            Destroy(gameObject, 1);
             playerController.canGoThruAngerDoor = true;
         }
+
+        /*if (health <= 0)
+        {
+            animator.SetTrigger("Death");
+            isDead = true;
+        }
+
+        if (isDead == true)
+        {
+            deadTimer += Time.deltaTime;
+
+            if (deadTimer > animator.GetCurrentAnimatorStateInfo(0).length)
+            {
+                Destroy(healthBar.gameObject);
+                Destroy(audioSource.gameObject);
+                Destroy(gameObject);
+                isDead = false;
+            }
+        }*/
 
         // give the player some time to recover before taking more damage !
         if (timeBtwDamage > 0)
