@@ -911,6 +911,7 @@ MonoBehaviour:
   jumpForce: 10
   canGoThruAngerDoor: 0
   canGoThruAngerDoor2: 0
+  canGoThruAngerDoor3: 0
   groundCheck: {fileID: 1492017780}
   checkRadius: 0.5
   WhatIsGrounded:
@@ -2822,9 +2823,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 10
+  m_MaxValue: 5
   m_WholeNumbers: 0
-  m_Value: 10
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -5271,6 +5272,7 @@ GameObject:
   - component: {fileID: 1204617741}
   - component: {fileID: 1204617736}
   - component: {fileID: 1204617740}
+  - component: {fileID: 1204617743}
   m_Layer: 0
   m_Name: Shock
   m_TagString: enemy
@@ -5418,7 +5420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4749d2599636edf43bdff2b733eb8422, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 5
   damage: 0
   timeToDamage: 0.5
   invincibilityTime: 1
@@ -5426,7 +5428,7 @@ MonoBehaviour:
   target: {fileID: 219973837}
   healthBar: {fileID: 719547086}
   isDead: 0
-  chaseDistance: 25
+  chaseDistance: 80
 --- !u!61 &1204617742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5453,6 +5455,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.7450414, y: 4.1788163}
   m_EdgeRadius: 0
+--- !u!114 &1204617743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204617735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8099e31cf9fec714ca95ffa303051a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerTransform: {fileID: 219973843}
+  _spriteRenderer: {fileID: 1204617738}
 --- !u!1 &1218523822
 GameObject:
   m_ObjectHideFlags: 0

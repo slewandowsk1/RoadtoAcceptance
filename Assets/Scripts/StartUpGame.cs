@@ -25,6 +25,10 @@ public class StartUpGame : MonoBehaviour
 	{
 		SceneManager.LoadScene (10);
 	}
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(6);
+    }
 
 
 }
