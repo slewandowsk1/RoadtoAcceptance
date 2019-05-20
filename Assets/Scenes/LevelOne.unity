@@ -10475,7 +10475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: VoCelus
-    clip: {fileID: 8300000, guid: 8201467839fd3374b99ea2d465a77472, type: 3}
+    clip: {fileID: 8300000, guid: 0f58f676e26facf40adf0cfd831429df, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}

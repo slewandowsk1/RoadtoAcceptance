@@ -563,7 +563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Vo500
-    clip: {fileID: 8300000, guid: 3f739aa651f41b847bc53e8cfcfaeee3, type: 3}
+    clip: {fileID: 8300000, guid: 2e27193506f424540a6373d2ff4a9e0e, type: 3}
     volume: 1
     pitch: 1
     source: {fileID: 0}
@@ -8515,7 +8515,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3f739aa651f41b847bc53e8cfcfaeee3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2e27193506f424540a6373d2ff4a9e0e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

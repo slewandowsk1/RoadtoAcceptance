@@ -30,7 +30,7 @@ public class PlayerAttack : MonoBehaviour {
 
             attackCollider.enabled = true;
 
-            FindObjectOfType<AudioManager>().Play("attack");
+            FindObjectOfType<AudioManager>().Play("PlayerAttack");
         }
 
         if (attacking)
