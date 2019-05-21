@@ -41,7 +41,7 @@ public class StageBoss : MonoBehaviour
       
         timeSinceHit = Mathf.Clamp(timeSinceHit + Time.deltaTime, 0, invincibilityTime);
 
-        if (health <= 15)
+        if (health <= 11)
         {
             animator.SetTrigger("StageTwo");
             speed = 200.0f;
@@ -49,7 +49,7 @@ public class StageBoss : MonoBehaviour
             damage = 3;
             chaseDistance = 100;
         }
-        if (health <= 8)
+        if (health <= 5)
         {
             animator.SetTrigger("StageThree");
             speed = 450.0f;

@@ -74,8 +74,15 @@ public class Health : MonoBehaviour
         controller.enabled = false;
         animator.SetTrigger("Die");
         isDead = true;
-        SceneManager.LoadScene(11);
-    }  
+        StartCoroutine(loadScene());
+        
+    }
+    IEnumerator loadScene()
+    {
+        yield return new WaitForSeconds(2);
+        Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+
+    }
     public void hit(int damage)
     {
         if (_currentInvincibility > 0) return;
