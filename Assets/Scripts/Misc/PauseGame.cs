@@ -6,9 +6,10 @@ public class PauseGame : MonoBehaviour {
 
     public Transform Canvas;
     public Transform PauseMenu;
-    public Transform audioSettingsMenu;
-    public Transform quitMenu;
+    //public Transform audioSettingsMenu;
+    //public Transform quitMenu;
     public Transform Player;
+    
 
     public bool isActive;
 
@@ -30,7 +31,7 @@ public class PauseGame : MonoBehaviour {
             if (PauseMenu.gameObject.activeInHierarchy == false)
             {
                 PauseMenu.gameObject.SetActive(true);
-                audioSettingsMenu.gameObject.SetActive(false);
+                //audioSettingsMenu.gameObject.SetActive(false);
 
 
             }
@@ -50,7 +51,7 @@ public class PauseGame : MonoBehaviour {
     }
 
 
-    public void AudioSettings(bool Open)
+    /*public void AudioSettings(bool Open)
     {
         if (Open) {
             audioSettingsMenu.gameObject.SetActive(true);
@@ -75,7 +76,7 @@ public class PauseGame : MonoBehaviour {
             PauseMenu.gameObject.SetActive(true);
 
         }
-    }
+    }*/
     public void StartGame()
     {
         SceneManager.LoadScene(1);
